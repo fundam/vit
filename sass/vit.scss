@@ -1,0 +1,1024 @@
+@import"compass";
+@charset"UTF-8";
+
+/**
+* CSS3 Fonts VIT
+* Made by FUNDAM(fundam.net)
+* 2013.9.28 ver1.00
+*/
+
+// font-size　文字の大きさ
+// -----------------------------------------------------
+$font-size:3em;
+
+// letter-spacing　文字の間隔
+// -----------------------------------------------------
+$letter-spacing:1em;
+
+//Iや約物にはそれぞれのクラスで左右マージンを$letter-spacingから引いています。
+
+// line-hight 行送り
+// -----------------------------------------------------
+$line-height:1em;
+
+// font-color 文字の色
+// -----------------------------------------------------
+$font-color:#000;
+
+
+
+// VIT settings 
+// -----------------------------------------------------
+@mixin clearfix{
+   *zoom: 1;
+   &:after{
+   	display: block;
+   	visibility: hidden;
+   	clear: both;
+   	height: 0;
+   	content: " ";
+   	font-size: 0;
+  }
+}
+.vit{
+	@include clearfix;
+}
+.vit br{
+	clear:both;
+}
+
+.vit > span,.vit a > span{
+	position: relative;
+	display:block;
+	float:left;
+	overflow:hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right:$letter-spacing;
+	margin-bottom:$line-height;
+	width: 1.6em;
+	height: 1.6em;
+	border-top:0.18em solid $font-color;
+	border-right: 0.2em solid $font-color;
+	border-bottom: 0.18em solid $font-color;
+	border-left:0.2em solid $font-color;
+	background-color:none;
+	text-decoration: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	font-size:$font-size;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+.vit > span:before,.vit a > span:before{
+	background-color:$font-color;
+}
+.vit > span:after,.vit a > span:after{
+	background-color: $font-color;
+}
+
+// 新しいクラスはこのように追加してください（例:test）
+// -----------------------------------------------------
+
+// .vit.test > span,.vit.test a> span{
+// 	font-size:Xpx;
+// 	margin-right:Xpx;
+// }
+
+// delete margin-right 行末のマージンを削除する場合クラスを追加
+// -----------------------------------------------------
+
+span.delmr{
+	margin-right:0em !important;
+}
+
+// delete margin-bottom line-heightを削除する場合クラスを追加
+// -----------------------------------------------------
+
+span.delmb{
+	margin-bottom:0em !important;
+}
+
+// character
+// ----------------------------------------------------------------------------------------------
+
+//錯視対策のため横画を縦画より0.02em細らせてます。
+
+//A
+.vit span.a{
+	border:none;
+}
+
+.vit span.a:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	-webkit-box-shadow:-0.2em 0.71em $font-color, 0 0.71em $font-color;
+	-moz-box-shadow:-0.2em 0.71em $font-color, 0 0.71em $font-color;
+	box-shadow:-0.2em 0.71em $font-color, 0 0.71em $font-color;
+	content:"";
+}
+.vit span.a:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 1.42em;
+	-webkit-box-shadow:1.4em 0 $font-color,1.5em 0 $font-color;
+	-moz-box-shadow:1.4em 0 $font-color,1.5em 0 $font-color;
+	box-shadow:1.4em 0 $font-color,1.5em 0 $font-color;
+	content:"";
+}
+.vit span.a{
+	border:none;
+}
+//B
+.vit span.b{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+.vit span.b:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	-webkit-box-shadow: 0 0.71em $font-color,0 1.42em $font-color,0 1.43em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color,0 1.42em $font-color,0 1.43em $font-color;
+	box-shadow: 0 0.71em $font-color,0 1.42em $font-color,0 1.43em $font-color;
+	content:"";
+}
+.vit span.b:after{
+	position: absolute;
+	top:0.18em;
+	left:1.2em;
+	display: block;
+	width: 0.2em;
+	height: 0.71em;
+	-webkit-box-shadow:0 0.53em $font-color,0.1em 0.53em $font-color,0.1em 0 $font-color;
+	-moz-box-shadow:0 0.53em $font-color,0.1em 0.53em $font-color;
+	box-shadow:0 0.53em $font-color,0.1em 0.53em $font-color,0.1em 0 $font-color;
+	content:"";
+}
+//C
+.vit span.c{
+	border:none;
+}
+.vit span.c:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	-webkit-box-shadow: 0 1.42em $font-color;
+	-moz-box-shadow: 0 1.42em $font-color;
+	box-shadow: 0 1.42em $font-color;
+	content:"";
+}
+.vit span.c:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 0.51em;
+	-webkit-box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0 $font-color,1.4em 0.73em $font-color;
+	-moz-box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0 $font-color,1.4em 0.73em $font-color;
+	box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0 $font-color,1.4em 0.73em $font-color;
+	content:"";
+}
+//D
+.vit span.d{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+.vit span.d:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	-webkit-box-shadow: 0 1.42em $font-color,0 1.44em $font-color;
+	-moz-box-shadow: 0 1.42em $font-color,0 1.44em $font-color;
+	box-shadow: 0 1.42em $font-color,0 1.44em $font-color;
+	content:"";
+}
+.vit span.d:after{
+	position: absolute;
+	top:0.18em;
+	left:1.2em;
+	display: block;
+	width: 0.2em;
+	height: 1.24em;
+	content:"";
+}
+
+//E
+.vit span.e{
+	border-right:none;
+}
+.vit span.e:before{
+	position: absolute;
+	top:0.53em;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	content:"";
+}
+//F
+.vit span.f{
+	border-right: none;
+	border-bottom: none;
+}
+.vit span.f:before{
+	position: absolute;
+	top:0.53em;
+	left:0;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	content:"";
+}
+//G
+.vit span.g{
+	border:none;
+}
+.vit span.g:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	-webkit-box-shadow: 0 1.42em $font-color,0.6em 0.71em $font-color;
+	-moz-box-shadow: 0 1.42em $font-color,0.6em 0.71em $font-color;
+	box-shadow: 0 1.42em $font-color,0.6em 0.71em $font-color;
+	content:"";
+}
+.vit span.g:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 0.51em;
+	-webkit-box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0.71em $font-color,1.4em 0.73em $font-color;
+	-moz-box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0.71em $font-color,1.4em 0.73em $font-color;
+	box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0.71em $font-color,1.6em 0.71em $font-color,1.4em 0.73em $font-color,1.6em 0.73em $font-color;
+	content:"";
+}
+//H
+.vit span.h{
+	border-top: none;
+	border-bottom: none;
+}
+.vit span.h:before{
+	position: absolute;
+	top:0.71em;
+	display: block;
+	width: 1.4em;
+	height: 0.18em;
+	content:"";
+}
+//I
+.vit span.i{
+	width: 0.2em;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left:0.2em solid $font-color;
+}
+//J
+.vit span.j{
+	border:none;
+}
+.vit span.j:before{
+	position: absolute;
+	top:1.42em;
+	left:0.2em;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	content:"";
+}
+.vit span.j:after{
+	position: absolute;
+	top:0;
+	left:1.4em;
+	display: block;
+	width: 0.2em;
+	height: 0.4em;
+	-webkit-box-shadow: 0 0.4em $font-color,0 0.38em $font-color,0 0.8em $font-color,0 0.78em $font-color,0 1.02em $font-color,-1.4em 1.02em $font-color;
+	-moz-box-shadow: 0 0.4em $font-color,0 0.38em $font-color,0 0.8em $font-color,0 0.78em $font-color,0 1.02em $font-color,-1.4em 1.02em $font-color;
+	box-shadow: 0 0.4em $font-color,0 0.38em $font-color,0 0.8em $font-color,0 0.78em $font-color,0 1.02em $font-color,-1.4em 1.02em $font-color;
+	content:"";
+}
+//K
+.vit span.k{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+.vit span.k:before{
+	position: absolute;
+	top:0.71em;
+	left:0;
+	display: block;
+	width: 1.2em;
+	height: 0.18em;
+	content:"";
+}
+.vit span.k:after{
+	position: absolute;
+	top:0;
+	left:1.2em;
+	display: block;
+	width:0.2em;
+	height: 0.71em;
+	-webkit-box-shadow: 0 0.89em $font-color;
+	-moz-box-shadow: 0 0.89em $font-color;
+	box-shadow: 0 0.89em $font-color;
+	content:"";
+}
+//L
+.vit span.l{
+	border-top: none;
+	border-right: none;
+}
+//M
+.vit span.m{
+	border:none;
+}
+.vit span.m:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width:1.21em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.m:after{
+	position: absolute;
+	top:0;
+	left:0.71em;
+	display: block;
+	width: 0.2em;
+	height: 1.42em;
+	-webkit-box-shadow: -0.71em 0.18em $font-color,0.7em 0.18em $font-color;
+	-moz-box-shadow: -0.71em 0.18em $font-color,0.7em 0.18em $font-color;
+	box-shadow: -0.71em 0.18em $font-color,0.7em 0.18em $font-color;
+	content:"";
+}
+//N
+.vit span.n{
+	border:none;
+}
+.vit span.n:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width:1.21em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.n:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 1.42em;
+	-webkit-box-shadow: 1.4em 0 $font-color;
+	-moz-box-shadow: 1.4em 0 $font-color;
+	box-shadow: 1.4em 0 $font-color;
+	content:"";
+}
+//O
+.vit span.o{
+	border:none;
+}
+.vit span.o:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0 1.42em $font-color;
+	-moz-box-shadow: 0 1.42em $font-color;
+	box-shadow: 0 1.42em $font-color;
+	content:"";
+}
+.vit span.o:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 1.24em;
+	-webkit-box-shadow: 1.4em 0 $font-color;
+	-moz-box-shadow: 1.4em 0 $font-color;
+	box-shadow: 1.4em 0 $font-color;
+	content:"";
+}
+//P
+.vit span.p{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+.vit span.p:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0 0.71em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color;
+	box-shadow: 0 0.71em $font-color;
+	content:"";
+}
+.vit span.p:after{
+	position: absolute;
+	top:0.18em;
+	left:1.2em;
+	display: block;
+	width: 0.2em;
+	height: 0.53em;
+	content:"";
+}
+//Q
+.vit span.q{
+	border:none;
+}
+.vit span.q:before{
+	position: absolute;
+	top:1.42em;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.2em;
+	-webkit-box-shadow: 0 -1.44em $font-color;
+	-moz-box-shadow: 0 -1.44em $font-color;
+	box-shadow: 0 -1.44em $font-color;
+	content:"";
+}
+.vit span.q:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 1.24em;
+	-webkit-box-shadow: 1.4em 0 $font-color,1em 0.9em $font-color;
+	-moz-box-shadow: 1.4em 0 $font-color,1em 0.9em $font-color;
+	box-shadow: 1.4em 0 $font-color,1em 0.9em $font-color;
+	content:"";
+}
+//R
+.vit span.r{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+.vit span.r:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width:1.2em;
+	height: 0.18em;
+	-webkit-box-shadow: 0 0.71em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color;
+	box-shadow: 0 0.71em $font-color;
+	content:"";
+}
+.vit span.r:after{
+	position: absolute;
+	top:0.18em;
+	left:1.2em;
+	display: block;
+	width: 0.2em;
+	height: 0.53em;
+	content:"";
+	-webkit-box-shadow: 0 0.71em $font-color,0 0.73em $font-color,0 1.24em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color,0 0.73em $font-color,0 1.24em $font-color;
+	box-shadow: 0 0.71em $font-color,0 0.73em $font-color,0 1.24em $font-color;
+}
+//S
+.vit span.s{
+	border:none;
+}
+.vit span.s:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0 0.71em $font-color,0 1.42em $font-color,-0.2em 1.42em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color,0 1.42em $font-color,-0.2em 1.42em $font-color;
+	box-shadow: 0 0.71em $font-color,0 1.42em $font-color,-0.2em 1.42em $font-color;
+	content:"";
+}
+.vit span.s:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 0.53em;
+	-webkit-box-shadow: 1.4em 0.71em $font-color;
+	-moz-box-shadow: 1.4em 0.71em $font-color;
+	box-shadow: 1.4em 0.71em $font-color;
+	content:"";
+}
+//T
+.vit span.t{
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+.vit span.t:before{
+	position: absolute;
+	top:0;
+	left:0.71em;
+	display: block;
+	width: 0.2em;
+	height: 1.6em;
+	content:"";
+}
+//U
+.vit span.u{
+	border:none;
+}
+.vit span.u:before{
+	position: absolute;
+	top:1.42em;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.u:after{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 1.42em;
+	-webkit-box-shadow: 1.4em 0 $font-color;
+	-moz-box-shadow: 1.4em 0 $font-color;
+	box-shadow: 1.4em 0 $font-color;
+	content:"";
+}
+//V
+.vit span.v{
+	border:none;
+}
+.vit span.v:before{
+	position: absolute;
+	top:1.42em;
+	left:0.4em;
+	display: block;
+	width:0.8em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.v:after{
+	position: absolute;
+	top:0.92em;
+	left:0.2em;
+	display: block;
+	width: 0.2em;
+	height:0.5em;
+	-webkit-box-shadow: 1em 0 $font-color,-0.2em -0.5em $font-color,-0.2em -0.92em $font-color,1.2em -0.5em $font-color,1.2em -0.92em $font-color;
+	-moz-box-shadow: 1em 0 $font-color,-0.2em -0.5em $font-color,-0.2em -0.92em $font-color,1.2em -0.5em $font-color,1.2em -0.92em $font-color;
+	box-shadow: 1em 0 $font-color,-0.2em -0.5em $font-color,-0.2em -0.92em $font-color,1.2em -0.5em $font-color,1.2em -0.92em $font-color;
+	content:"";
+
+}
+//W
+.vit span.w{
+	border:none;
+}
+.vit span.w:before{
+	position: absolute;
+	top:1.42em;
+	left:0.2em;
+	display: block;
+	width:0.5em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0.7em  0 $font-color;
+	-moz-box-shadow: 0.7em  0 $font-color;
+	box-shadow: 0.7em  0 $font-color;
+	content:"";
+}
+.vit span.w:after{
+	position: absolute;
+	top:0.18em;
+	left:0.7em;
+	display: block;
+	width: 0.2em;
+	height: 1.24em;
+	-webkit-box-shadow: -0.7em 0 $font-color,-0.7em -0.62em $font-color,0.7em 0 $font-color,0.7em -0.62em $font-color;
+	-moz-box-shadow: -0.7em 0 $font-color,-0.7em -0.62em $font-color,0.7em 0 $font-color,0.7em -0.62em $font-color;
+	box-shadow: -0.7em 0 $font-color,-0.7em -0.62em $font-color,0.7em 0 $font-color,0.7em -0.62em $font-color;
+	content:"";
+}
+//X
+.vit span.x{
+	border:none;
+}
+.vit span.x:before{
+	position: absolute;
+	top:0.71em;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.x:after{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height:0.71em;
+	-webkit-box-shadow: 1.4em 0 $font-color,0 0.89em $font-color,1.4em 0.89em $font-color;
+	-moz-box-shadow: 1.4em 0 $font-color,0 0.89em $font-color,1.4em 0.89em $font-color;
+	box-shadow: 1.4em 0 $font-color,0 0.89em $font-color,1.4em 0.89em $font-color;
+	content:"";
+}
+.vit span.y{
+	border:none;
+}
+.vit span.y:before{
+	position: absolute;
+	top:0.71em;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.y:after{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height:0.71em;
+	-webkit-box-shadow: 1.4em 0 $font-color,0.7em 0.89em $font-color,0.7em 0.87em $font-color,0.7em 1em $font-color;
+	-moz-box-shadow: 1.4em 0 $font-color,0.7em 0.89em $font-color,0.7em 0.87em $font-color,0.7em 1em $font-color;
+	box-shadow: 1.4em 0 $font-color,0.7em 0.89em $font-color,0.7em 0.87em $font-color,0.7em 1em $font-color;
+	content:"";
+}
+.vit span.z{
+	border-right: none;
+	border-left: none;
+}
+.vit span.z:before{
+	position: absolute;
+	top:0.53em;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.z:after{
+	position: absolute;
+	top:0;
+	left:1.4em;
+	display: block;
+	width: 0.2em;
+	height: 0.53em;
+	-webkit-box-shadow: -1.4em 0.71em $font-color,-1.4em 0.99em $font-color,-1.5em 0.71em $font-color;
+	-moz-box-shadow: -1.4em 0.71em $font-color,-1.4em 0.99em $font-color,-1.5em 0.71em $font-color;
+	box-shadow: -1.4em 0.71em $font-color,-1.4em 0.99em $font-color,-1.5em 0.71em $font-color;
+	content:"";
+}
+//0
+.vit span.zero:before{
+	position: absolute;
+	top:0.52em;
+	left:0.5em;
+	display: block;
+	width:0.2em ;
+	height: 0.2em;
+	content:"";
+}
+//1
+.vit span.one{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.vit span.one:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width:0.91em;
+	height: 0.18em;
+	content:"";
+}
+.vit span.one:after{
+	position: absolute;
+	top:0;
+	left:0.71em;
+	display: block;
+	width: 0.2em;
+	height: 1.6em;
+	-webkit-box-shadow:0.7em 1em $font-color,0.72em 1em $font-color;
+	-moz-box-shadow: 0.7em 1em $font-color,0.72em 1em $font-color;
+	box-shadow: 0.7em 1em $font-color,0.72em 1em $font-color;
+	content:"";
+}
+//2
+.vit span.two{
+	border-right: none;
+	border-left: none;
+}
+.vit span.two:before{
+	position: absolute;
+	top:0.53em;
+	left:0;
+	display: block;
+	width:1.6em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.two:after{
+	position: absolute;
+	top:-0.2em;
+	left:1.4em;
+	display: block;
+	width: 0.2em;
+	height: 0.91em;
+	-webkit-box-shadow:-1.4em 0.81em $font-color,-1.4em 0.81em $font-color, -1.42em 0.81em $font-color;
+	-moz-box-shadow: -1.4em 0.81em $font-color,-1.42em 0.81em $font-color;
+	box-shadow: -1.4em 0.81em $font-color,-1.42em 0.81em $font-color;
+	content:"";
+}
+//3
+.vit span.three{
+	border-left: none;
+}
+.vit span.three:before{
+	position: absolute;
+	top:0.53em;
+	left:0.2em;
+	display: block;
+	width:1.4em ;
+	height: 0.18em;
+	content:"";
+	-webkit-box-shadow: 0.22em 0 $font-color;
+	-moz-box-shadow: 0.22em 0 $font-color;
+	box-shadow: 0.22em 0 $font-color;
+}
+//4
+.vit span.four{
+	border:none;
+}
+.vit span.four:before{
+	position: absolute;
+	top:0.71em;
+	left:0;
+	display: block;
+	width:1.6em ;
+	height: 0.18em;
+	content:"";
+}
+.vit span.four:after{
+	position: absolute;
+	top:0;
+	left:1em;
+	display: block;
+	width: 0.2em;
+	height: 1.6em;
+	-webkit-box-shadow: -1em -0.8em $font-color;
+	-moz-box-shadow: -1em -0.8em $font-color;
+	box-shadow: -1em -0.8em $font-color;
+	content:"";
+}
+//5
+.vit span.five{
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+.vit span.five:before{
+	position: absolute;
+	top:0.53em;
+	left:0;
+	display: block;
+	width:1.4em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0 0.72em $font-color;
+	-moz-box-shadow: 0 0.72em $font-color;
+	box-shadow: 0 0.72em $font-color;
+	content:"";
+}
+.vit span.five:after{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 0.54em;
+	-webkit-box-shadow: 1.4em 0.71em $font-color;
+	-moz-box-shadow: 1.4em 0.71em $font-color;
+	box-shadow: 1.4em 0.71em $font-color;
+	content:"";
+}
+//6
+.vit span.six{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+.vit span.six:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0 0.71em $font-color,0 1.42em $font-color,0 1.44em $font-color,-0.2em 1.42em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color,0 1.42em $font-color,0 1.44em $font-color,-0.2em 1.42em $font-color;
+	box-shadow: 0 0.71em $font-color,0 1.42em $font-color,0 1.44em $font-color,-0.2em 1.42em $font-color;
+	content:"";
+}
+.vit span.six:after{
+	position: absolute;
+	top:0.89em;
+	left:1.2em;
+	display: block;
+	width: 0.2em;
+	height: 0.54em;
+	content:"";
+}
+//7
+.vit span.seven{
+	border-bottom: none;
+	border-left: none;
+}
+.vit span.seven:after{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 0.6em;
+	content:"";
+}
+//8
+.vit span.eight{
+	border:none;
+}
+.vit span.eight:before{
+	position: absolute;
+	top:0;
+	left:0.2em;
+	display: block;
+	width:1.2em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0 0.71em $font-color,0 1.42em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color,0 1.42em $font-color;
+	box-shadow: 0 0.71em $font-color,0 1.42em $font-color;
+	content:"";
+}
+.vit span.eight:after{
+	position: absolute;
+	top:0.18em;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 0.53em;
+	-webkit-box-shadow: 0 0.71em $font-color,1.4em 0 $font-color,1.4em 0.71em $font-color;
+	-moz-box-shadow: 0 0.71em $font-color,1.4em 0 $font-color,1.4em 0.71em $font-color;
+	box-shadow: 0 0.71em $font-color,1.4em 0 $font-color,1.4em 0.71em $font-color;
+	content:"";
+}
+//9
+.vit span.nine{
+	border:none;
+}
+.vit span.nine:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width:1.4em ;
+	height: 0.18em;
+	-webkit-box-shadow: 0.2em 0.71em $font-color,0.2em 1.42em $font-color,0.22em 1.42em $font-color;
+	-moz-box-shadow: 0.2em 0.71em $font-color,0.2em 1.42em $font-color,0.22em 1.42em $font-color;
+	box-shadow: 0.2em 0.71em $font-color,0.2em 1.42em $font-color,0.22em 1.42em $font-color;
+	content:"";
+}
+.vit span.nine:after{
+	position: absolute;
+	top:0.18em;
+	left:1.4em;
+	display: block;
+	width: 0.2em;
+	height: 1.24em;
+	-webkit-box-shadow:-1.4em -0.71em $font-color,-1.42em -0.71em  $font-color;
+	-moz-box-shadow:-1.4em -0.71em $font-color,-1.42em -0.71em  $font-color;
+	box-shadow:-1.4em -0.71em $font-color,-1.42em -0.71em  $font-color;
+	content:"";
+}
+//.
+.vit span.dot{
+	margin-right: $letter-spacing / 3;
+	margin-left:  -($letter-spacing / 3);
+	width: 0.2em;
+	border-top: none;
+	border-right: none;
+	border-bottom:0.2em solid $font-color;
+	border-left: none;
+}
+//!
+.vit span.exc{
+	width: 0.2em;
+	border-top: none;
+	border-right: none;
+	border-bottom: 0.2em solid $font-color;
+	border-left: none;
+}
+.vit span.exc:before{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 0.2em;
+	height: 1.2em;
+	content:"";
+}
+//?
+.vit span.ques{
+	width: 1.0em;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+.vit span.ques:before{
+	position: absolute;
+	top:0.53em;
+	left:0.5em;
+	display: block;
+	width: 0.7em;
+	height: 0.18em;
+	content:"";
+}
+.vit span.ques:after{
+	position: absolute;
+	top:0;
+	left:0.8em;
+	display: block;
+	width: 0.2em;
+	height: 0.31em;
+	content:"";
+	-webkit-box-shadow: 0.02em 0 $font-color,0 0.31em $font-color,0.02em 0.31em $font-color,-0.5em 0.71em $font-color,-0.5em 1.21em $font-color;
+	-moz-box-shadow: 0.02em 0 $font-color,0 0.31em $font-color,0.02em 0.31em $font-color,-0.5em 0.71em $font-color,-0.5em 1.21em $font-color;
+	box-shadow: 0.02em 0 $font-color,0 0.31em $font-color,0.02em 0.31em $font-color,-0.5em 0.71em $font-color,-0.5em 1.21em $font-color;
+}
+.vit span.quot{
+	width: 0.3em;
+	border:none;
+}
+.vit span.quot:after{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width: 0.1em;
+	height: 0.3em;
+	content:"";
+	-webkit-box-shadow: 0.2em 0 $font-color,0.22em 0 $font-color;
+	-moz-box-shadow: 0.2em 0 $font-color,0.22em 0 $font-color;
+	box-shadow: 0.2em 0 $font-color,0.22em 0 $font-color;
+}
+//blank
+.vit span.blk{
+	border:none;
+	width:0.4em;
+}
+

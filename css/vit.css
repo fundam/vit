@@ -1,0 +1,1043 @@
+@charset "UTF-8";
+/**
+* CSS3 Fonts VIT
+* Made by FUNDAM(fundam.net)
+* 2013.9.28 ver1.00
+*/
+.vit {
+  *zoom: 1;
+}
+.vit:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: " ";
+  font-size: 0;
+}
+
+.vit br {
+  clear: both;
+}
+
+.vit > span, .vit a > span {
+  position: relative;
+  display: block;
+  float: left;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  width: 1.6em;
+  height: 1.6em;
+  border-top: 0.18em solid black;
+  border-right: 0.2em solid black;
+  border-bottom: 0.18em solid black;
+  border-left: 0.2em solid black;
+  background-color: none;
+  text-decoration: none;
+  text-indent: 100%;
+  white-space: nowrap;
+  font-size: 3em;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+.vit > span:before, .vit a > span:before {
+  background-color: black;
+}
+
+.vit > span:after, .vit a > span:after {
+  background-color: black;
+}
+
+span.delmr {
+  margin-right: 0em !important;
+}
+
+span.delmb {
+  margin-bottom: 0em !important;
+}
+
+.vit span.a {
+  border: none;
+}
+
+.vit span.a:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: -0.2em 0.71em black, 0 0.71em black;
+  -moz-box-shadow: -0.2em 0.71em black, 0 0.71em black;
+  box-shadow: -0.2em 0.71em black, 0 0.71em black;
+  content: "";
+}
+
+.vit span.a:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 1.42em;
+  -webkit-box-shadow: 1.4em 0 black, 1.5em 0 black;
+  -moz-box-shadow: 1.4em 0 black, 1.5em 0 black;
+  box-shadow: 1.4em 0 black, 1.5em 0 black;
+  content: "";
+}
+
+.vit span.a {
+  border: none;
+}
+
+.vit span.b {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.vit span.b:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 0.71em black, 0 1.42em black, 0 1.43em black;
+  -moz-box-shadow: 0 0.71em black, 0 1.42em black, 0 1.43em black;
+  box-shadow: 0 0.71em black, 0 1.42em black, 0 1.43em black;
+  content: "";
+}
+
+.vit span.b:after {
+  position: absolute;
+  top: 0.18em;
+  left: 1.2em;
+  display: block;
+  width: 0.2em;
+  height: 0.71em;
+  -webkit-box-shadow: 0 0.53em black, 0.1em 0.53em black, 0.1em 0 black;
+  -moz-box-shadow: 0 0.53em black, 0.1em 0.53em black;
+  box-shadow: 0 0.53em black, 0.1em 0.53em black, 0.1em 0 black;
+  content: "";
+}
+
+.vit span.c {
+  border: none;
+}
+
+.vit span.c:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 1.42em black;
+  -moz-box-shadow: 0 1.42em black;
+  box-shadow: 0 1.42em black;
+  content: "";
+}
+
+.vit span.c:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.51em;
+  -webkit-box-shadow: 0 0.51em black, 0 0.73em black, 1.4em 0 black, 1.4em 0.73em black;
+  -moz-box-shadow: 0 0.51em black, 0 0.73em black, 1.4em 0 black, 1.4em 0.73em black;
+  box-shadow: 0 0.51em black, 0 0.73em black, 1.4em 0 black, 1.4em 0.73em black;
+  content: "";
+}
+
+.vit span.d {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.vit span.d:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 1.42em black, 0 1.44em black;
+  -moz-box-shadow: 0 1.42em black, 0 1.44em black;
+  box-shadow: 0 1.42em black, 0 1.44em black;
+  content: "";
+}
+
+.vit span.d:after {
+  position: absolute;
+  top: 0.18em;
+  left: 1.2em;
+  display: block;
+  width: 0.2em;
+  height: 1.24em;
+  content: "";
+}
+
+.vit span.e {
+  border-right: none;
+}
+
+.vit span.e:before {
+  position: absolute;
+  top: 0.53em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.f {
+  border-right: none;
+  border-bottom: none;
+}
+
+.vit span.f:before {
+  position: absolute;
+  top: 0.53em;
+  left: 0;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.g {
+  border: none;
+}
+
+.vit span.g:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 1.42em black, 0.6em 0.71em black;
+  -moz-box-shadow: 0 1.42em black, 0.6em 0.71em black;
+  box-shadow: 0 1.42em black, 0.6em 0.71em black;
+  content: "";
+}
+
+.vit span.g:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.51em;
+  -webkit-box-shadow: 0 0.51em black, 0 0.73em black, 1.4em 0.71em black, 1.4em 0.73em black;
+  -moz-box-shadow: 0 0.51em black, 0 0.73em black, 1.4em 0.71em black, 1.4em 0.73em black;
+  box-shadow: 0 0.51em black, 0 0.73em black, 1.4em 0.71em black, 1.6em 0.71em black, 1.4em 0.73em black, 1.6em 0.73em black;
+  content: "";
+}
+
+.vit span.h {
+  border-top: none;
+  border-bottom: none;
+}
+
+.vit span.h:before {
+  position: absolute;
+  top: 0.71em;
+  display: block;
+  width: 1.4em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.i {
+  width: 0.2em;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 0.2em solid black;
+}
+
+.vit span.j {
+  border: none;
+}
+
+.vit span.j:before {
+  position: absolute;
+  top: 1.42em;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.j:after {
+  position: absolute;
+  top: 0;
+  left: 1.4em;
+  display: block;
+  width: 0.2em;
+  height: 0.4em;
+  -webkit-box-shadow: 0 0.4em black, 0 0.38em black, 0 0.8em black, 0 0.78em black, 0 1.02em black, -1.4em 1.02em black;
+  -moz-box-shadow: 0 0.4em black, 0 0.38em black, 0 0.8em black, 0 0.78em black, 0 1.02em black, -1.4em 1.02em black;
+  box-shadow: 0 0.4em black, 0 0.38em black, 0 0.8em black, 0 0.78em black, 0 1.02em black, -1.4em 1.02em black;
+  content: "";
+}
+
+.vit span.k {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.vit span.k:before {
+  position: absolute;
+  top: 0.71em;
+  left: 0;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.k:after {
+  position: absolute;
+  top: 0;
+  left: 1.2em;
+  display: block;
+  width: 0.2em;
+  height: 0.71em;
+  -webkit-box-shadow: 0 0.89em black;
+  -moz-box-shadow: 0 0.89em black;
+  box-shadow: 0 0.89em black;
+  content: "";
+}
+
+.vit span.l {
+  border-top: none;
+  border-right: none;
+}
+
+.vit span.m {
+  border: none;
+}
+
+.vit span.m:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.21em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.m:after {
+  position: absolute;
+  top: 0;
+  left: 0.71em;
+  display: block;
+  width: 0.2em;
+  height: 1.42em;
+  -webkit-box-shadow: -0.71em 0.18em black, 0.7em 0.18em black;
+  -moz-box-shadow: -0.71em 0.18em black, 0.7em 0.18em black;
+  box-shadow: -0.71em 0.18em black, 0.7em 0.18em black;
+  content: "";
+}
+
+.vit span.n {
+  border: none;
+}
+
+.vit span.n:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.21em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.n:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 1.42em;
+  -webkit-box-shadow: 1.4em 0 black;
+  -moz-box-shadow: 1.4em 0 black;
+  box-shadow: 1.4em 0 black;
+  content: "";
+}
+
+.vit span.o {
+  border: none;
+}
+
+.vit span.o:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 1.42em black;
+  -moz-box-shadow: 0 1.42em black;
+  box-shadow: 0 1.42em black;
+  content: "";
+}
+
+.vit span.o:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 1.24em;
+  -webkit-box-shadow: 1.4em 0 black;
+  -moz-box-shadow: 1.4em 0 black;
+  box-shadow: 1.4em 0 black;
+  content: "";
+}
+
+.vit span.p {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.vit span.p:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 0.71em black;
+  -moz-box-shadow: 0 0.71em black;
+  box-shadow: 0 0.71em black;
+  content: "";
+}
+
+.vit span.p:after {
+  position: absolute;
+  top: 0.18em;
+  left: 1.2em;
+  display: block;
+  width: 0.2em;
+  height: 0.53em;
+  content: "";
+}
+
+.vit span.q {
+  border: none;
+}
+
+.vit span.q:before {
+  position: absolute;
+  top: 1.42em;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.2em;
+  -webkit-box-shadow: 0 -1.44em black;
+  -moz-box-shadow: 0 -1.44em black;
+  box-shadow: 0 -1.44em black;
+  content: "";
+}
+
+.vit span.q:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 1.24em;
+  -webkit-box-shadow: 1.4em 0 black, 1em 0.9em black;
+  -moz-box-shadow: 1.4em 0 black, 1em 0.9em black;
+  box-shadow: 1.4em 0 black, 1em 0.9em black;
+  content: "";
+}
+
+.vit span.r {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.vit span.r:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 0.71em black;
+  -moz-box-shadow: 0 0.71em black;
+  box-shadow: 0 0.71em black;
+  content: "";
+}
+
+.vit span.r:after {
+  position: absolute;
+  top: 0.18em;
+  left: 1.2em;
+  display: block;
+  width: 0.2em;
+  height: 0.53em;
+  content: "";
+  -webkit-box-shadow: 0 0.71em black, 0 0.73em black, 0 1.24em black;
+  -moz-box-shadow: 0 0.71em black, 0 0.73em black, 0 1.24em black;
+  box-shadow: 0 0.71em black, 0 0.73em black, 0 1.24em black;
+}
+
+.vit span.s {
+  border: none;
+}
+
+.vit span.s:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 0.71em black, 0 1.42em black, -0.2em 1.42em black;
+  -moz-box-shadow: 0 0.71em black, 0 1.42em black, -0.2em 1.42em black;
+  box-shadow: 0 0.71em black, 0 1.42em black, -0.2em 1.42em black;
+  content: "";
+}
+
+.vit span.s:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.53em;
+  -webkit-box-shadow: 1.4em 0.71em black;
+  -moz-box-shadow: 1.4em 0.71em black;
+  box-shadow: 1.4em 0.71em black;
+  content: "";
+}
+
+.vit span.t {
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.vit span.t:before {
+  position: absolute;
+  top: 0;
+  left: 0.71em;
+  display: block;
+  width: 0.2em;
+  height: 1.6em;
+  content: "";
+}
+
+.vit span.u {
+  border: none;
+}
+
+.vit span.u:before {
+  position: absolute;
+  top: 1.42em;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.u:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 1.42em;
+  -webkit-box-shadow: 1.4em 0 black;
+  -moz-box-shadow: 1.4em 0 black;
+  box-shadow: 1.4em 0 black;
+  content: "";
+}
+
+.vit span.v {
+  border: none;
+}
+
+.vit span.v:before {
+  position: absolute;
+  top: 1.42em;
+  left: 0.4em;
+  display: block;
+  width: 0.8em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.v:after {
+  position: absolute;
+  top: 0.92em;
+  left: 0.2em;
+  display: block;
+  width: 0.2em;
+  height: 0.5em;
+  -webkit-box-shadow: 1em 0 black, -0.2em -0.5em black, -0.2em -0.92em black, 1.2em -0.5em black, 1.2em -0.92em black;
+  -moz-box-shadow: 1em 0 black, -0.2em -0.5em black, -0.2em -0.92em black, 1.2em -0.5em black, 1.2em -0.92em black;
+  box-shadow: 1em 0 black, -0.2em -0.5em black, -0.2em -0.92em black, 1.2em -0.5em black, 1.2em -0.92em black;
+  content: "";
+}
+
+.vit span.w {
+  border: none;
+}
+
+.vit span.w:before {
+  position: absolute;
+  top: 1.42em;
+  left: 0.2em;
+  display: block;
+  width: 0.5em;
+  height: 0.18em;
+  -webkit-box-shadow: 0.7em 0 black;
+  -moz-box-shadow: 0.7em 0 black;
+  box-shadow: 0.7em 0 black;
+  content: "";
+}
+
+.vit span.w:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0.7em;
+  display: block;
+  width: 0.2em;
+  height: 1.24em;
+  -webkit-box-shadow: -0.7em 0 black, -0.7em -0.62em black, 0.7em 0 black, 0.7em -0.62em black;
+  -moz-box-shadow: -0.7em 0 black, -0.7em -0.62em black, 0.7em 0 black, 0.7em -0.62em black;
+  box-shadow: -0.7em 0 black, -0.7em -0.62em black, 0.7em 0 black, 0.7em -0.62em black;
+  content: "";
+}
+
+.vit span.x {
+  border: none;
+}
+
+.vit span.x:before {
+  position: absolute;
+  top: 0.71em;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.x:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.71em;
+  -webkit-box-shadow: 1.4em 0 black, 0 0.89em black, 1.4em 0.89em black;
+  -moz-box-shadow: 1.4em 0 black, 0 0.89em black, 1.4em 0.89em black;
+  box-shadow: 1.4em 0 black, 0 0.89em black, 1.4em 0.89em black;
+  content: "";
+}
+
+.vit span.y {
+  border: none;
+}
+
+.vit span.y:before {
+  position: absolute;
+  top: 0.71em;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.y:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.71em;
+  -webkit-box-shadow: 1.4em 0 black, 0.7em 0.89em black, 0.7em 0.87em black, 0.7em 1em black;
+  -moz-box-shadow: 1.4em 0 black, 0.7em 0.89em black, 0.7em 0.87em black, 0.7em 1em black;
+  box-shadow: 1.4em 0 black, 0.7em 0.89em black, 0.7em 0.87em black, 0.7em 1em black;
+  content: "";
+}
+
+.vit span.z {
+  border-right: none;
+  border-left: none;
+}
+
+.vit span.z:before {
+  position: absolute;
+  top: 0.53em;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.z:after {
+  position: absolute;
+  top: 0;
+  left: 1.4em;
+  display: block;
+  width: 0.2em;
+  height: 0.53em;
+  -webkit-box-shadow: -1.4em 0.71em black, -1.4em 0.99em black, -1.5em 0.71em black;
+  -moz-box-shadow: -1.4em 0.71em black, -1.4em 0.99em black, -1.5em 0.71em black;
+  box-shadow: -1.4em 0.71em black, -1.4em 0.99em black, -1.5em 0.71em black;
+  content: "";
+}
+
+.vit span.zero:before {
+  position: absolute;
+  top: 0.52em;
+  left: 0.5em;
+  display: block;
+  width: 0.2em;
+  height: 0.2em;
+  content: "";
+}
+
+.vit span.one {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.vit span.one:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.91em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.one:after {
+  position: absolute;
+  top: 0;
+  left: 0.71em;
+  display: block;
+  width: 0.2em;
+  height: 1.6em;
+  -webkit-box-shadow: 0.7em 1em black, 0.72em 1em black;
+  -moz-box-shadow: 0.7em 1em black, 0.72em 1em black;
+  box-shadow: 0.7em 1em black, 0.72em 1em black;
+  content: "";
+}
+
+.vit span.two {
+  border-right: none;
+  border-left: none;
+}
+
+.vit span.two:before {
+  position: absolute;
+  top: 0.53em;
+  left: 0;
+  display: block;
+  width: 1.6em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.two:after {
+  position: absolute;
+  top: -0.2em;
+  left: 1.4em;
+  display: block;
+  width: 0.2em;
+  height: 0.91em;
+  -webkit-box-shadow: -1.4em 0.81em black, -1.4em 0.81em black, -1.42em 0.81em black;
+  -moz-box-shadow: -1.4em 0.81em black, -1.42em 0.81em black;
+  box-shadow: -1.4em 0.81em black, -1.42em 0.81em black;
+  content: "";
+}
+
+.vit span.three {
+  border-left: none;
+}
+
+.vit span.three:before {
+  position: absolute;
+  top: 0.53em;
+  left: 0.2em;
+  display: block;
+  width: 1.4em;
+  height: 0.18em;
+  content: "";
+  -webkit-box-shadow: 0.22em 0 black;
+  -moz-box-shadow: 0.22em 0 black;
+  box-shadow: 0.22em 0 black;
+}
+
+.vit span.four {
+  border: none;
+}
+
+.vit span.four:before {
+  position: absolute;
+  top: 0.71em;
+  left: 0;
+  display: block;
+  width: 1.6em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.four:after {
+  position: absolute;
+  top: 0;
+  left: 1em;
+  display: block;
+  width: 0.2em;
+  height: 1.6em;
+  -webkit-box-shadow: -1em -0.8em black;
+  -moz-box-shadow: -1em -0.8em black;
+  box-shadow: -1em -0.8em black;
+  content: "";
+}
+
+.vit span.five {
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.vit span.five:before {
+  position: absolute;
+  top: 0.53em;
+  left: 0;
+  display: block;
+  width: 1.4em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 0.72em black;
+  -moz-box-shadow: 0 0.72em black;
+  box-shadow: 0 0.72em black;
+  content: "";
+}
+
+.vit span.five:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.54em;
+  -webkit-box-shadow: 1.4em 0.71em black;
+  -moz-box-shadow: 1.4em 0.71em black;
+  box-shadow: 1.4em 0.71em black;
+  content: "";
+}
+
+.vit span.six {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.vit span.six:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 0.71em black, 0 1.42em black, 0 1.44em black, -0.2em 1.42em black;
+  -moz-box-shadow: 0 0.71em black, 0 1.42em black, 0 1.44em black, -0.2em 1.42em black;
+  box-shadow: 0 0.71em black, 0 1.42em black, 0 1.44em black, -0.2em 1.42em black;
+  content: "";
+}
+
+.vit span.six:after {
+  position: absolute;
+  top: 0.89em;
+  left: 1.2em;
+  display: block;
+  width: 0.2em;
+  height: 0.54em;
+  content: "";
+}
+
+.vit span.seven {
+  border-bottom: none;
+  border-left: none;
+}
+
+.vit span.seven:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.6em;
+  content: "";
+}
+
+.vit span.eight {
+  border: none;
+}
+
+.vit span.eight:before {
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  display: block;
+  width: 1.2em;
+  height: 0.18em;
+  -webkit-box-shadow: 0 0.71em black, 0 1.42em black;
+  -moz-box-shadow: 0 0.71em black, 0 1.42em black;
+  box-shadow: 0 0.71em black, 0 1.42em black;
+  content: "";
+}
+
+.vit span.eight:after {
+  position: absolute;
+  top: 0.18em;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 0.53em;
+  -webkit-box-shadow: 0 0.71em black, 1.4em 0 black, 1.4em 0.71em black;
+  -moz-box-shadow: 0 0.71em black, 1.4em 0 black, 1.4em 0.71em black;
+  box-shadow: 0 0.71em black, 1.4em 0 black, 1.4em 0.71em black;
+  content: "";
+}
+
+.vit span.nine {
+  border: none;
+}
+
+.vit span.nine:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.4em;
+  height: 0.18em;
+  -webkit-box-shadow: 0.2em 0.71em black, 0.2em 1.42em black, 0.22em 1.42em black;
+  -moz-box-shadow: 0.2em 0.71em black, 0.2em 1.42em black, 0.22em 1.42em black;
+  box-shadow: 0.2em 0.71em black, 0.2em 1.42em black, 0.22em 1.42em black;
+  content: "";
+}
+
+.vit span.nine:after {
+  position: absolute;
+  top: 0.18em;
+  left: 1.4em;
+  display: block;
+  width: 0.2em;
+  height: 1.24em;
+  -webkit-box-shadow: -1.4em -0.71em black, -1.42em -0.71em black;
+  -moz-box-shadow: -1.4em -0.71em black, -1.42em -0.71em black;
+  box-shadow: -1.4em -0.71em black, -1.42em -0.71em black;
+  content: "";
+}
+
+.vit span.dot {
+  margin-right: 0.33333em;
+  margin-left: -0.33333em;
+  width: 0.2em;
+  border-top: none;
+  border-right: none;
+  border-bottom: 0.2em solid black;
+  border-left: none;
+}
+
+.vit span.exc {
+  width: 0.2em;
+  border-top: none;
+  border-right: none;
+  border-bottom: 0.2em solid black;
+  border-left: none;
+}
+
+.vit span.exc:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.2em;
+  height: 1.2em;
+  content: "";
+}
+
+.vit span.ques {
+  width: 1.0em;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.vit span.ques:before {
+  position: absolute;
+  top: 0.53em;
+  left: 0.5em;
+  display: block;
+  width: 0.7em;
+  height: 0.18em;
+  content: "";
+}
+
+.vit span.ques:after {
+  position: absolute;
+  top: 0;
+  left: 0.8em;
+  display: block;
+  width: 0.2em;
+  height: 0.31em;
+  content: "";
+  -webkit-box-shadow: 0.02em 0 black, 0 0.31em black, 0.02em 0.31em black, -0.5em 0.71em black, -0.5em 1.21em black;
+  -moz-box-shadow: 0.02em 0 black, 0 0.31em black, 0.02em 0.31em black, -0.5em 0.71em black, -0.5em 1.21em black;
+  box-shadow: 0.02em 0 black, 0 0.31em black, 0.02em 0.31em black, -0.5em 0.71em black, -0.5em 1.21em black;
+}
+
+.vit span.quot {
+  width: 0.3em;
+  border: none;
+}
+
+.vit span.quot:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.1em;
+  height: 0.3em;
+  content: "";
+  -webkit-box-shadow: 0.2em 0 black, 0.22em 0 black;
+  -moz-box-shadow: 0.2em 0 black, 0.22em 0 black;
+  box-shadow: 0.2em 0 black, 0.22em 0 black;
+}
+
+.vit span.blk {
+  border: none;
+  width: 0.4em;
+}
