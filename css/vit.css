@@ -819,9 +819,9 @@ span.delmb {
   display: block;
   width: 0.2em;
   height: 1.6em;
-  -webkit-box-shadow: -1em -0.8em black;
-  -moz-box-shadow: -1em -0.8em black;
-  box-shadow: -1em -0.8em black;
+  -webkit-box-shadow: -1.02em -0.8em black;
+  -moz-box-shadow: -1.02em -0.8em black;
+  box-shadow: -1.02em -0.8em black;
   content: "";
 }
 

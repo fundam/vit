@@ -15,8 +15,6 @@ $font-size:3em;
 // -----------------------------------------------------
 $letter-spacing:1em;
 
-//Iや約物にはそれぞれのクラスで左右マージンを$letter-spacingから引いています。
-
 // line-hight 行送り
 // -----------------------------------------------------
 $line-height:1em;
@@ -105,7 +103,15 @@ span.delmb{
 
 //錯視対策のため横画を縦画より0.02em細らせてます。
 
-//A
+
+//    ###    
+//   ## ##   
+//  ##   ##  
+// ##     ## 
+// ######### 
+// ##     ## 
+// ##     ## 
+
 .vit span.a{
 	border:none;
 }
@@ -137,7 +143,15 @@ span.delmb{
 .vit span.a{
 	border:none;
 }
-//B
+
+// ########  
+// ##     ## 
+// ##     ## 
+// ########  
+// ##     ## 
+// ##     ## 
+// ########  
+
 .vit span.b{
 	border-top: none;
 	border-right: none;
@@ -167,7 +181,15 @@ span.delmb{
 	box-shadow:0 0.53em $font-color,0.1em 0.53em $font-color,0.1em 0 $font-color;
 	content:"";
 }
-//C
+
+//  ######  
+// ##    ## 
+// ##       
+// ##       
+// ##       
+// ##    ## 
+//  ######  
+
 .vit span.c{
 	border:none;
 }
@@ -195,7 +217,15 @@ span.delmb{
 	box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0 $font-color,1.4em 0.73em $font-color;
 	content:"";
 }
-//D
+
+// ########  
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ########  
+
 .vit span.d{
 	border-top: none;
 	border-right: none;
@@ -223,7 +253,15 @@ span.delmb{
 	content:"";
 }
 
-//E
+
+// ######## 
+// ##       
+// ##       
+// ######   
+// ##       
+// ##       
+// ######## 
+
 .vit span.e{
 	border-right:none;
 }
@@ -235,7 +273,15 @@ span.delmb{
 	height: 0.18em;
 	content:"";
 }
-//F
+
+// ######## 
+// ##       
+// ##       
+// ######   
+// ##       
+// ##       
+// ##       
+
 .vit span.f{
 	border-right: none;
 	border-bottom: none;
@@ -249,7 +295,15 @@ span.delmb{
 	height: 0.18em;
 	content:"";
 }
-//G
+
+//  ######   
+// ##    ##  
+// ##        
+// ##   #### 
+// ##    ##  
+// ##    ##  
+//  ######   
+
 .vit span.g{
 	border:none;
 }
@@ -277,7 +331,15 @@ span.delmb{
 	box-shadow: 0 0.51em $font-color,0 0.73em $font-color,1.4em 0.71em $font-color,1.6em 0.71em $font-color,1.4em 0.73em $font-color,1.6em 0.73em $font-color;
 	content:"";
 }
-//H
+
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ######### 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+
 .vit span.h{
 	border-top: none;
 	border-bottom: none;
@@ -290,7 +352,15 @@ span.delmb{
 	height: 0.18em;
 	content:"";
 }
-//I
+
+// #### 
+//  ##  
+//  ##  
+//  ##  
+//  ##  
+//  ##  
+// #### 
+
 .vit span.i{
 	width: 0.2em;
 	border-top: none;
@@ -298,7 +368,15 @@ span.delmb{
 	border-bottom: none;
 	border-left:0.2em solid $font-color;
 }
-//J
+
+//       ## 
+//       ## 
+//       ## 
+//       ## 
+// ##    ## 
+// ##    ## 
+//  ######  
+
 .vit span.j{
 	border:none;
 }
@@ -323,7 +401,15 @@ span.delmb{
 	box-shadow: 0 0.4em $font-color,0 0.38em $font-color,0 0.8em $font-color,0 0.78em $font-color,0 1.02em $font-color,-1.4em 1.02em $font-color;
 	content:"";
 }
-//K
+
+// ##    ## 
+// ##   ##  
+// ##  ##   
+// #####    
+// ##  ##   
+// ##   ##  
+// ##    ## 
+
 .vit span.k{
 	border-top: none;
 	border-right: none;
@@ -350,12 +436,28 @@ span.delmb{
 	box-shadow: 0 0.89em $font-color;
 	content:"";
 }
-//L
+
+// ##       
+// ##       
+// ##       
+// ##       
+// ##       
+// ##       
+// ######## 
+
 .vit span.l{
 	border-top: none;
 	border-right: none;
 }
-//M
+
+// ##     ## 
+// ###   ### 
+// #### #### 
+// ## ### ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+
 .vit span.m{
 	border:none;
 }
@@ -380,7 +482,15 @@ span.delmb{
 	box-shadow: -0.71em 0.18em $font-color,0.7em 0.18em $font-color;
 	content:"";
 }
-//N
+
+// ##    ## 
+// ###   ## 
+// ####  ## 
+// ## ## ## 
+// ##  #### 
+// ##   ### 
+// ##    ## 
+
 .vit span.n{
 	border:none;
 }
@@ -405,7 +515,15 @@ span.delmb{
 	box-shadow: 1.4em 0 $font-color;
 	content:"";
 }
-//O
+
+//  #######  
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+//  #######  
+
 .vit span.o{
 	border:none;
 }
@@ -433,7 +551,15 @@ span.delmb{
 	box-shadow: 1.4em 0 $font-color;
 	content:"";
 }
-//P
+
+// ########  
+// ##     ## 
+// ##     ## 
+// ########  
+// ##        
+// ##        
+// ##        
+
 .vit span.p{
 	border-top: none;
 	border-right: none;
@@ -460,7 +586,15 @@ span.delmb{
 	height: 0.53em;
 	content:"";
 }
-//Q
+
+//  #######  
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##  ## ## 
+// ##    ##  
+//  ##### ## 
+
 .vit span.q{
 	border:none;
 }
@@ -488,7 +622,15 @@ span.delmb{
 	box-shadow: 1.4em 0 $font-color,1em 0.9em $font-color;
 	content:"";
 }
-//R
+
+// ########  
+// ##     ## 
+// ##     ## 
+// ########  
+// ##   ##   
+// ##    ##  
+// ##     ## 
+
 .vit span.r{
 	border-top: none;
 	border-right: none;
@@ -518,7 +660,15 @@ span.delmb{
 	-moz-box-shadow: 0 0.71em $font-color,0 0.73em $font-color,0 1.24em $font-color;
 	box-shadow: 0 0.71em $font-color,0 0.73em $font-color,0 1.24em $font-color;
 }
-//S
+
+//  ######  
+// ##    ## 
+// ##       
+//  ######  
+//       ## 
+// ##    ## 
+//  ######  
+
 .vit span.s{
 	border:none;
 }
@@ -546,7 +696,15 @@ span.delmb{
 	box-shadow: 1.4em 0.71em $font-color;
 	content:"";
 }
-//T
+
+// ######## 
+//    ##    
+//    ##    
+//    ##    
+//    ##    
+//    ##    
+//    ##    
+
 .vit span.t{
 	border-right: none;
 	border-bottom: none;
@@ -561,7 +719,15 @@ span.delmb{
 	height: 1.6em;
 	content:"";
 }
-//U
+
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+//  #######  
+
 .vit span.u{
 	border:none;
 }
@@ -586,7 +752,15 @@ span.delmb{
 	box-shadow: 1.4em 0 $font-color;
 	content:"";
 }
-//V
+
+// ##     ## 
+// ##     ## 
+// ##     ## 
+// ##     ## 
+//  ##   ##  
+//   ## ##   
+//    ###    
+
 .vit span.v{
 	border:none;
 }
@@ -612,7 +786,15 @@ span.delmb{
 	content:"";
 
 }
-//W
+
+// ##      ## 
+// ##  ##  ## 
+// ##  ##  ## 
+// ##  ##  ## 
+// ##  ##  ## 
+// ##  ##  ## 
+//  ###  ###  
+
 .vit span.w{
 	border:none;
 }
@@ -640,7 +822,15 @@ span.delmb{
 	box-shadow: -0.7em 0 $font-color,-0.7em -0.62em $font-color,0.7em 0 $font-color,0.7em -0.62em $font-color;
 	content:"";
 }
-//X
+
+// ##     ## 
+//  ##   ##  
+//   ## ##   
+//    ###    
+//   ## ##   
+//  ##   ##  
+// ##     ## 
+
 .vit span.x{
 	border:none;
 }
@@ -665,6 +855,15 @@ span.delmb{
 	box-shadow: 1.4em 0 $font-color,0 0.89em $font-color,1.4em 0.89em $font-color;
 	content:"";
 }
+
+// ##    ## 
+//  ##  ##  
+//   ####   
+//    ##    
+//    ##    
+//    ##    
+//    ##    
+
 .vit span.y{
 	border:none;
 }
@@ -689,6 +888,15 @@ span.delmb{
 	box-shadow: 1.4em 0 $font-color,0.7em 0.89em $font-color,0.7em 0.87em $font-color,0.7em 1em $font-color;
 	content:"";
 }
+
+// ######## 
+//      ##  
+//     ##   
+//    ##    
+//   ##     
+//  ##      
+// ######## 
+
 .vit span.z{
 	border-right: none;
 	border-left: none;
@@ -714,7 +922,15 @@ span.delmb{
 	box-shadow: -1.4em 0.71em $font-color,-1.4em 0.99em $font-color,-1.5em 0.71em $font-color;
 	content:"";
 }
-//0
+
+//   #####   
+//  ##   ##  
+// ##     ## 
+// ##     ## 
+// ##     ## 
+//  ##   ##  
+//   #####   
+
 .vit span.zero:before{
 	position: absolute;
 	top:0.52em;
@@ -724,7 +940,15 @@ span.delmb{
 	height: 0.2em;
 	content:"";
 }
-//1
+
+ //   ##   
+ // ####   
+ //   ##   
+ //   ##   
+ //   ##   
+ //   ##   
+ // ###### 
+
 .vit span.one{
 	border-top: none;
 	border-right: none;
@@ -751,7 +975,15 @@ span.delmb{
 	box-shadow: 0.7em 1em $font-color,0.72em 1em $font-color;
 	content:"";
 }
-//2
+
+//  #######  
+// ##     ## 
+//        ## 
+//  #######  
+// ##        
+// ##        
+// ######### 
+
 .vit span.two{
 	border-right: none;
 	border-left: none;
@@ -777,7 +1009,15 @@ span.delmb{
 	box-shadow: -1.4em 0.81em $font-color,-1.42em 0.81em $font-color;
 	content:"";
 }
-//3
+
+//  #######  
+// ##     ## 
+//        ## 
+//  #######  
+//        ## 
+// ##     ## 
+//  #######  
+
 .vit span.three{
 	border-left: none;
 }
@@ -793,7 +1033,15 @@ span.delmb{
 	-moz-box-shadow: 0.22em 0 $font-color;
 	box-shadow: 0.22em 0 $font-color;
 }
-//4
+
+// ##        
+// ##    ##  
+// ##    ##  
+// ##    ##  
+// ######### 
+//       ##  
+//       ##  
+
 .vit span.four{
 	border:none;
 }
@@ -813,12 +1061,20 @@ span.delmb{
 	display: block;
 	width: 0.2em;
 	height: 1.6em;
-	-webkit-box-shadow: -1em -0.8em $font-color;
-	-moz-box-shadow: -1em -0.8em $font-color;
-	box-shadow: -1em -0.8em $font-color;
+	-webkit-box-shadow: -1.02em -0.8em $font-color;
+	-moz-box-shadow: -1.02em -0.8em $font-color;
+	box-shadow: -1.02em -0.8em $font-color;
 	content:"";
 }
-//5
+
+// ######## 
+// ##       
+// ##       
+// #######  
+//       ## 
+// ##    ## 
+//  ######  
+
 .vit span.five{
 	border-right: none;
 	border-bottom: none;
@@ -848,7 +1104,15 @@ span.delmb{
 	box-shadow: 1.4em 0.71em $font-color;
 	content:"";
 }
-//6
+
+//  #######  
+// ##     ## 
+// ##        
+// ########  
+// ##     ## 
+// ##     ## 
+//  #######  
+
 .vit span.six{
 	border-top: none;
 	border-right: none;
@@ -875,7 +1139,15 @@ span.delmb{
 	height: 0.54em;
 	content:"";
 }
-//7
+
+// ######## 
+// ##    ## 
+//     ##   
+//    ##    
+//   ##     
+//   ##     
+//   ##     
+
 .vit span.seven{
 	border-bottom: none;
 	border-left: none;
@@ -889,7 +1161,15 @@ span.delmb{
 	height: 0.6em;
 	content:"";
 }
-//8
+
+//  #######  
+// ##     ## 
+// ##     ## 
+//  #######  
+// ##     ## 
+// ##     ## 
+//  #######  
+
 .vit span.eight{
 	border:none;
 }
@@ -917,7 +1197,15 @@ span.delmb{
 	box-shadow: 0 0.71em $font-color,1.4em 0 $font-color,1.4em 0.71em $font-color;
 	content:"";
 }
-//9
+
+//  #######  
+// ##     ## 
+// ##     ## 
+//  ######## 
+//        ## 
+// ##     ## 
+//  #######  
+
 .vit span.nine{
 	border:none;
 }
@@ -945,7 +1233,10 @@ span.delmb{
 	box-shadow:-1.4em -0.71em $font-color,-1.42em -0.71em  $font-color;
 	content:"";
 }
-//.
+
+// ### 
+// ### 
+
 .vit span.dot{
 	margin-right: $letter-spacing / 3;
 	margin-left:  -($letter-spacing / 3);
@@ -955,7 +1246,15 @@ span.delmb{
 	border-bottom:0.2em solid $font-color;
 	border-left: none;
 }
-//!
+
+// #### 
+// #### 
+// #### 
+//  ##  
+     
+// #### 
+// #### 
+
 .vit span.exc{
 	width: 0.2em;
 	border-top: none;
@@ -972,7 +1271,15 @@ span.delmb{
 	height: 1.2em;
 	content:"";
 }
-//?
+
+//  #######  
+// ##     ## 
+//       ##  
+//     ###   
+//    ##     
+          
+//    ##     
+
 .vit span.ques{
 	width: 1.0em;
 	border-right: none;
@@ -1000,6 +1307,12 @@ span.delmb{
 	-moz-box-shadow: 0.02em 0 $font-color,0 0.31em $font-color,0.02em 0.31em $font-color,-0.5em 0.71em $font-color,-0.5em 1.21em $font-color;
 	box-shadow: 0.02em 0 $font-color,0 0.31em $font-color,0.02em 0.31em $font-color,-0.5em 0.71em $font-color,-0.5em 1.21em $font-color;
 }
+
+// #### #### 
+// #### #### 
+//  ##   ##  
+// ##   ##            
+
 .vit span.quot{
 	width: 0.3em;
 	border:none;
@@ -1016,7 +1329,15 @@ span.delmb{
 	-moz-box-shadow: 0.2em 0 $font-color,0.22em 0 $font-color;
 	box-shadow: 0.2em 0 $font-color,0.22em 0 $font-color;
 }
-//blank
+
+// ########  ##          ###    ##    ## ##    ## 
+// ##     ## ##         ## ##   ###   ## ##   ##  
+// ##     ## ##        ##   ##  ####  ## ##  ##   
+// ########  ##       ##     ## ## ## ## #####    
+// ##     ## ##       ######### ##  #### ##  ##   
+// ##     ## ##       ##     ## ##   ### ##   ##  
+// ########  ######## ##     ## ##    ## ##    ## 
+
 .vit span.blk{
 	border:none;
 	width:0.4em;
